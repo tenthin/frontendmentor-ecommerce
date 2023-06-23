@@ -1,0 +1,49 @@
+.footer{
+    height: 365px;
+    width: 1440px;
+    margin: 200px auto 0;
+    background-color:black;
+    color: white;
+
+    .footer-menu{
+        width:1110px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 75px;
+
+        ul{
+            display: flex;
+            list-style-type: none;
+            gap: 34px;
+            padding: 0;
+            margin: 0;
+        li{
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 25px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }       
+        }
+    }
+
+    p{
+        width: 1110px;
+        margin: 36px auto 0;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        opacity: 0.5;
+    }
+
+    .social-media {
+        text-align: right;
+        width: 1110px;
+        margin: 0 auto;
+    
+        img:not(:last-of-type) {
+          margin-right: 16px; /* Add a 16px right margin between images */
+        }
+      }
+    }

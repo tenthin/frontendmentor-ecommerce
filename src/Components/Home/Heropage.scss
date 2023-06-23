@@ -1,0 +1,65 @@
+.hero{
+    margin: 0 auto;
+    width: 100%;
+    background-image: url("../../assets/home/desktop/image-hero.jpg");
+    background-size: cover; /* Use 'cover' to ensure the image covers the entire background */
+    background-position: center center;
+    border-radius: [object Object]px;
+    height: 632px;
+    display: table;
+}
+
+.hero-content{
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+    text-align: left;
+    padding-left: 160px;
+
+    h7{
+        font-size: 14px;
+        text-transform: uppercase;
+        line-height: 19px;
+        letter-spacing: 10px;
+        margin-top: 128px;
+        opacity: 49.64%;
+    // border-radius: nullpx;
+
+    }
+    h1{
+        margin: 24px auto 0;
+        font-weight: 700;
+        line-height: 58px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        // font-family: Manrope;
+        // font-size: 56px;
+        // text-align: left;
+    }
+    p{
+        // font-family: Manrope;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+        opacity: 75%;
+        margin-top: 25px;
+    margin-bottom: 40px;
+    }
+}
+
+button{
+    font-family: Manrope;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-align: left;
+    padding: 15px 31px;
+    background-color: #D87D4A;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+}
