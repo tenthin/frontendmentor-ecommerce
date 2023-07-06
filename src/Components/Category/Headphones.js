@@ -1,22 +1,22 @@
 import React from "react";
-import "./Headphones.scss";
-import Header from "../../Header/Header";
-import Footer from "../../Footer/Footer";
-import xx99mark2 from "../../../assets/product-xx99-mark-two-headphones/desktop/image-category-page-preview.jpg";
-import xx99mark1 from "../../../assets/product-xx99-mark-one-headphones/desktop/image-category-page-preview.jpg";
-import xx59 from "../../../assets/product-xx59-headphones/desktop/image-category-page-preview.jpg";
-import Category from "../Category";
-import Bestgear from "../../Home/Bestgear";
+import "./Category.scss";
+import Header from "../Header/Header";
+import xx99mark2 from "../../assets/product-xx99-mark-two-headphones/desktop/image-category-page-preview.jpg";
+import xx99mark1 from "../../assets/product-xx99-mark-one-headphones/desktop/image-category-page-preview.jpg";
+import xx59 from "../../assets/product-xx59-headphones/desktop/image-category-page-preview.jpg";
+import Category from "./Category";
+import Bestgear from "../Home/Bestgear";
+import Footer from "../Footer/Footer";
 
 function Headphones() {
   return (
-    <div className="headphones">
+    <div className="items">
       <Header />
-      <h2 className="title-headphones">headphones</h2>
-      <div className="headphones-item">
-        <div className="xx99mark2">
+      <h2 className="title-items">headphones</h2>
+      <div className="item">
+        <div className="first-newproduct-item">
           <img src={xx99mark2} alt="" />
-          <div className="xx99mark2-content">
+          <div className="first-newproduct-item-content">
             <span>new product</span>
             <h2>
               XX99 Mark II
@@ -33,9 +33,9 @@ function Headphones() {
           </div>
         </div>
 
-        <div className="xx99mark1">
+        <div className="left-img-item">
           <img src={xx99mark1} alt="" />
-          <div className="xx99mark1-content">
+          <div className="left-img-item-content">
             <h2>
               XX99 Mark I<br />
               Headphones
@@ -50,9 +50,9 @@ function Headphones() {
           </div>
         </div>
 
-        <div className="xx59">
+        <div className="right-img-item">
           <img src={xx59} alt="" />
-          <div className="xx59-content">
+          <div className="right-img-item-content">
             <h2>
               XX59
               <br />

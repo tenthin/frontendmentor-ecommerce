@@ -1,0 +1,139 @@
+.product{
+    width:1110px;
+    margin: 0 auto;
+
+    p{
+        margin: 79px auto 56px;
+        color: #000;
+        font-size: 15px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 25px;
+        opacity: 0.5;
+        cursor: pointer;
+    }
+
+    .product-content{
+        // width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img{
+            width:540px;
+            height: 560px;
+            border-radius: 8px;
+        }
+
+        .product-info{
+
+            span{
+                color: #D87D4A;
+                font-size: 14px;
+                font-family: Manrope;
+                letter-spacing: 10px;
+                text-transform: uppercase;
+            }
+
+            h2{
+                font-weight: 700;
+                line-height: 44px;
+                letter-spacing: 1.429px;
+                text-transform: uppercase;
+                margin: 16px auto 32px;
+            }
+
+            p{
+                font-size: 15px;
+                font-family: Manrope;
+                font-weight: 500;
+                line-height: 25px;
+                opacity: 0.5;
+            }
+
+            .product-quantity{
+                display: flex;
+                // justify-content: space-between;
+                margin-top: 47px;
+
+                button{
+                    font-family: Manrope;
+                    font-size: 13px;
+                    font-weight: 700;
+                    line-height: 18px;
+                    letter-spacing: 1px;
+                    text-align: left;
+                    padding: 15px 31px;
+                    background-color: #D87D4A;
+                    color: white;
+                    text-transform: uppercase;
+                    border: none;
+                    margin-left: 16px;
+                }
+
+                .counter{
+                    width:120px;
+                    background-color: #F1F1F1;
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+
+                    .positive, .negative{
+                        cursor: pointer;
+                        color: #000;
+                        text-align: center;
+                        font-size: 13px;
+                        font-family: Manrope;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                        opacity: 0.25;
+                    }
+
+                    .count{
+                        color: #000;
+                        text-align: center;
+                        font-size: 13px;
+                        font-family: Manrope;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+
+    .features{
+
+        .features-left {
+            float: left;
+            width: 635px;
+
+            h3{
+                text-transform: uppercase;
+            }
+
+            p{
+                margin: 0;
+            }
+        }
+
+        .features-right {
+            // float: right;
+            
+            h3{
+                text-transform: uppercase;
+            }
+            
+            p{
+                margin: 0;
+            }
+        }
+    }
+}

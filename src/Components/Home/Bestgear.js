@@ -1,5 +1,6 @@
 import React from "react";
 import bestgear from "../../assets/shared/desktop/image-best-gear.jpg";
+import "./Home.scss";
 
 function Bestgear() {
   return (
